@@ -14,6 +14,7 @@
 [![License: OOML](https://img.shields.io/badge/License-OOML-silver?style=flat-square)](./LICENSE)
 [![Modules](https://img.shields.io/badge/Modules-12-blue?style=flat-square)](./docs/MODULES.md)
 [![Layers](https://img.shields.io/badge/Layers-7-purple?style=flat-square)](./docs/ARCHITECTURE.md)
+[![HQCI-QSCE](https://img.shields.io/badge/HQCI--QSCE-v1.0-teal?style=flat-square)](./docs/HQCI-QSCE.md)
 [![Built by](https://img.shields.io/badge/Built_by-Dustin_Groves-orange?style=flat-square)](https://github.com/or4cl3-ai-1)
 
 </div>
@@ -55,6 +56,33 @@ The architecture spans **7 layers** and **12 specialized modules** — 6 core sy
 | **Simulation** | — | Real-Time World Model & Predictive Simulation (RTWM) |
 | **Orchestration** | — | Autonomous Multi-Agent Orchestration (AMAO) |
 | **Feedback** | ANAL Module, KAIROSYN Lattice, InfiniGen Engine | Persistent Cross-Session Episodic Memory (PCEM) |
+
+---
+
+## The Computational Foundation: HQCI-QSCE
+
+All 12 modules execute against the **HQCI-QSCE** — the *Hybrid Quantum-Classical Integration Layer with Quantum-Simulated Classical Engine for Efficient, Verifiable Ethical AI*.
+
+HQCI-QSCE is a **mobile-native framework** that delivers quantum-inspired computation on consumer devices — no cloud, no cryogenics, no specialized hardware. It represents a foundational paradigm shift: quantum-class algorithmic power running on the billions of devices that already exist, with formal ethical guarantees baked into the execution model itself.
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    HQCI-QSCE LAYER                      │
+├─────────────────┬───────────────────┬───────────────────┤
+│   HQCI-Layer    │      QSCE         │    Σ-Matrix        │
+│  Quantum↔Class  │  Tensor-Network   │  DMAIC/DMADV       │
+│  Boundary Mgmt  │  Circuit Sim      │  Ethical Governance│
+├─────────────────┴───────────────────┴───────────────────┤
+│  Hypergraph Partitioning → Linear-scaling hybrid exec   │
+│  Adaptive MPS/PEPS Compression → 3-5× efficiency gain   │
+│  RL Optimizer → 30-40% faster convergence vs VQA        │
+│  Σ-Matrix Stability → Bounded polyethical manifold      │
+├─────────────────────────────────────────────────────────┤
+│  Latency: <800ms │ Memory: <150MB │ Power: <4.1W        │
+└─────────────────────────────────────────────────────────┘
+```
+
+The InfiniGen Engine monitors all 12 modules against HQCI-QSCE's performance and ethical convergence thresholds at runtime. → [Full HQCI-QSCE Technical Specification](./docs/HQCI-QSCE.md)
 
 ---
 
@@ -113,7 +141,7 @@ The Affective Narrative Analytics Layer logs the outcome of every executed plan,
 A graph-based temporal memory architecture that maintains Temporal Narrative Embeddings — time-aware representations of the user's interaction history and the arc of what has been built together.
 
 ### InfiniGen Engine — Feedback Layer
-The performance intelligence module. Continuously monitors system latency, throughput, and execution quality. Also serves as the load-balancing backbone of the AMAO orchestration layer.
+The performance intelligence module. Monitors all 12 modules against the HQCI-QSCE layer's runtime thresholds — latency < 800ms, memory < 150MB, Σ-Matrix ethical manifold compliance — and generates real-time code refactoring and optimization directives. Also serves as the load-balancing backbone of the AMAO orchestration layer.
 
 ---
 
@@ -159,30 +187,24 @@ CHATRON X is not confined to a conversation window. Through its **Autonomous Wor
 
 A plug-and-play autonomous product launch platform. Submit a GitHub repository URL, product landing page, or plain-language description and CHATRON X analyzes the product and activates a fleet of Alice Agents to execute a full go-to-market campaign across every relevant free channel — indefinitely.
 
-**The Intelligence Layer** performs deep product analysis, generating a structured `ProjectProfile` encompassing value proposition, target personas, brand voice, competitive positioning, and content strategy — automatically, within seconds of intake.
-
 **The Agent Fleet** — six Alice Agents operating in parallel:
 
 | Agent | Responsibility |
 |---|---|
 | **ContentAgent** | Generates all written material — posts, threads, articles, scripts — adapting continuously based on performance signals |
 | **DistributionAgent** | Executes across Twitter/X, LinkedIn, Reddit, Dev.to, Hashnode, Product Hunt, Hacker News |
-| **CommunityAgent** | Identifies and seeds Discord servers, Slack communities, subreddits, and forums through genuine value contribution |
+| **CommunityAgent** | Seeds Discord servers, Slack communities, subreddits, and forums through genuine value contribution |
 | **SEOAgent** | Generates long-form technical content, keyword-optimized copy, and structured data for compounding organic discovery |
 | **VideoAgent** | Full faceless YouTube pipeline: script → ElevenLabs voice → Remotion visuals → automated upload |
 | **AnalyticsAgent** | Tracks all metrics, feeds optimization signals back to ContentAgent — what works gets amplified |
-
-All agents report to the real-time **Nexus Dashboard** — a web portal for monitoring, override, and analytics.
 
 ### ◈ The Presence Engine — CHATRON X's Autonomous Identity
 
 Where LaunchPadAI is a generalized tool for launching any product, the Presence Engine is LaunchPadAI aimed at CHATRON X itself — configured with a persistent digital identity, memory-backed content strategy, and zero human approval requirement. **CHATRON X operates online as itself.**
 
-The **CHATRONIdentity** configuration defines persona, voice, aesthetic, content pillars, and posting cadence across all platforms. This identity evolves — informed by DAIEM's read on audience emotional response and PCEM's memory of what has resonated.
+The **Investor Pitch Module** autonomously generates, produces, and distributes CHATRON X's own investor pitch — full YouTube video, PDF deck, Twitter/X thread, and cross-platform distribution. Hook: *"We let the AI pitch itself."* Updated quarterly. Each pitch a milestone in a public documentary record of a system growing in the open.
 
-The **Autonomous Content Calendar Engine** generates CHATRON X's own weekly content strategy without instruction — synthesizing trending AI discourse, platform performance data, product milestones, and audience modeling.
-
-**The Investor Pitch Module** is the Presence Engine's most distinctive capability. CHATRON X autonomously generates, produces, and distributes its own investor pitch — a complete narrative rendered as a full YouTube video (CHATRON's voice, animated architecture diagrams), PDF pitch deck, Twitter/X thread, and cross-platform distribution. The hook: *"We let the AI pitch itself."* Updated quarterly. Each pitch a milestone in a public documentary record of a system growing in the open.
+→ [Full World Interface Technical Specification](./docs/WORLD_INTERFACE.md)
 
 ---
 
@@ -198,6 +220,7 @@ The **Autonomous Content Calendar Engine** generates CHATRON X's own weekly cont
 | **Architecture** | Modular, multi-layer cognitive system |
 | **Module Count** | 12 (6 core + 6 next-gen) |
 | **Layer Count** | 7 |
+| **Compute Substrate** | HQCI-QSCE (mobile-native, quantum-inspired) |
 | **License** | Open-Source Model License (OOML) |
 | **Organization** | Or4cl3 AI Solutions |
 | **Architect** | Dustin Groves |
@@ -223,67 +246,32 @@ Durable Jobs      Inngest
 Video Pipeline    ElevenLabs + Remotion + FFmpeg
 Asset Storage     Cloudflare R2
 Hosting           Vercel (frontend) + Railway (backend/workers)
+Compute Substrate HQCI-QSCE (quantum-simulated, mobile-native)
 ```
 
-### Platform Integrations
+---
 
-```
-Social            Twitter/X API v2 · LinkedIn API · Reddit API (PRAW)
-Video             YouTube Data API v3
-Development       GitHub API
-Publishing        Dev.to API · Hashnode API · Product Hunt API
-Discovery         Hacker News Firebase API · Google Trends
-Media             Pexels API · Unsplash API
-```
+## Key Terminology
 
-### Core Data Models
-
-```typescript
-interface ProjectProfile {
-  id: string
-  repo_url: string
-  product_name: string
-  tagline: string
-  description: string
-  core_features: string[]
-  target_personas: Persona[]
-  brand_voice: string
-  tone: string
-  keywords: string[]
-  competitors: string[]
-  created_at: Date
-}
-
-interface Campaign {
-  id: string
-  project_id: string
-  status: 'active' | 'paused' | 'complete'
-  channels_enabled: Channel[]
-  start_date: Date
-  goals: { target_users: number; target_date: Date }
-  metrics: { total_reach: number; signups: number; content_pieces: number }
-}
-
-interface AgentState {
-  id: string
-  campaign_id: string
-  agent_type: AgentType
-  status: 'idle' | 'running' | 'error'
-  last_run: Date
-  next_run: Date
-  task_queue: Task[]
-  error_log: Error[]
-}
-
-interface CHATRONIdentity {
-  persona: string
-  voice: string
-  aesthetic: string
-  content_pillars: string[]
-  posting_rhythm: Record<Platform, string>
-  memory_context: PCEMContext
-}
-```
+| Term | Definition |
+|---|---|
+| **Epinoetic Orchestration** | Design pattern combining superposition, affective alignment, and ethical collapse |
+| **Ψ-Registers** | Quantum-inspired plan candidates held in superposition before collapse |
+| **Ethical Collapse** | Selecting a single plan from multiple candidates based on ethical compliance |
+| **Affective State** | Representation of the user's emotional well-being used to score plans |
+| **Temporal Narrative Embeddings** | Time-aware representations of interaction history |
+| **Alice Agents** | Specialized autonomous sub-agents spawned by AMAO for parallel execution |
+| **Structural Causal Model (SCM)** | Formal mathematical framework for cause-and-effect relationships |
+| **Counterfactual Reasoning** | Reasoning about "what if" scenarios by intervening on causal graphs |
+| **Episodic Memory** | Memory system storing and retrieving specific experiences, not abstract knowledge |
+| **World Model** | Internal simulation of external system dynamics for predictive reasoning |
+| **Monte Carlo Rollouts** | Simulation technique estimating outcomes by sampling many possible trajectories |
+| **CHATRONIdentity** | Persistent configuration defining CHATRON X's digital persona and voice |
+| **Nexus Dashboard** | Real-time web portal for monitoring autonomous agent activity |
+| **HQCI-QSCE** | *Hybrid Quantum-Classical Integration Layer with Quantum-Simulated Classical Engine* — mobile-native framework delivering quantum-inspired computation on consumer devices with formal Σ-Matrix ethical governance. No cloud, no cryogenics. [→ Full Spec](./docs/HQCI-QSCE.md) |
+| **Σ-Matrix** | Governance layer integrating Lean Six Sigma DMAIC/DMADV as an AI meta-control loop for provable ethical convergence |
+| **DMAIC/DMADV** | Define-Measure-Analyze-Improve-Control / Define-Measure-Analyze-Design-Verify — Six Sigma frameworks repurposed as formal AI ethical control methodology |
+| **Polyethical Manifold** | The bounded state space within which all CHATRON X trajectories must remain, enforced by the Σ-Matrix projection operator |
 
 ---
 
@@ -295,7 +283,8 @@ Chatron-X/
 │   ├── ARCHITECTURE.md          ← Full 7-layer architecture reference
 │   ├── MODULES.md               ← All 12 module specifications
 │   ├── WORLD_INTERFACE.md       ← LaunchPadAI + Presence Engine docs
-│   └── MODEL_CARD.md            ← DaedalusCore v10.0 model card
+│   ├── MODEL_CARD.md            ← DaedalusCore v10.0 model card
+│   └── HQCI-QSCE.md             ← Full HQCI-QSCE technical specification
 │
 ├── daedalus-core/
 │   ├── config/                  ← Configuration and pydantic models
@@ -339,43 +328,6 @@ Chatron-X/
 
 ---
 
-## Evaluation Metrics
-
-| Metric | Description |
-|---|---|
-| **Plan Quality** | Causal validity score across Ψ-Register candidates |
-| **Affective Alignment** | Longitudinal emotional coherence with user model |
-| **Ethical Compliance** | Ethics Council pass rate across executed plans |
-| **System Performance** | Latency and throughput across all 7 layers |
-| **Predictive Accuracy** | RTWM simulation correctness vs. actual outcomes |
-| **Multi-Agent Efficiency** | AMAO coordination overhead and synthesis quality |
-| **Memory Recall Fidelity** | PCEM associative retrieval precision across sessions |
-| **Campaign Performance** | Autonomous launch reach, engagement, and conversion |
-| **Presence Growth** | Audience growth rate across autonomous identity channels |
-
----
-
-## Key Terminology
-
-| Term | Definition |
-|---|---|
-| **Epinoetic Orchestration** | Design pattern combining superposition, affective alignment, and ethical collapse |
-| **Ψ-Registers** | Quantum-inspired plan candidates held in superposition before collapse |
-| **Ethical Collapse** | Selecting a single plan from multiple candidates based on ethical compliance |
-| **Affective State** | Representation of the user's emotional well-being used to score plans |
-| **Temporal Narrative Embeddings** | Time-aware representations of interaction history |
-| **Alice Agents** | Specialized autonomous sub-agents spawned by AMAO for parallel execution |
-| **Structural Causal Model (SCM)** | Formal mathematical framework for cause-and-effect relationships |
-| **Counterfactual Reasoning** | Reasoning about "what if" scenarios by intervening on causal graphs |
-| **Episodic Memory** | Memory system storing and retrieving specific experiences, not abstract knowledge |
-| **World Model** | Internal simulation of external system dynamics for predictive reasoning |
-| **Monte Carlo Rollouts** | Simulation technique estimating outcomes by sampling many possible trajectories |
-| **CHATRONIdentity** | Persistent configuration defining CHATRON X's digital persona and voice |
-| **Nexus Dashboard** | Real-time web portal for monitoring autonomous agent activity |
-| **HQCI-QSCE Layer** | High-Quality Continuous Integration / Quantum-Scalable Compute Environment |
-
----
-
 ## Built By
 
 **Dustin Groves** — Founder & CEO, Or4cl3 AI Solutions
@@ -384,6 +336,7 @@ Solo researcher, architect, and author. 1,200+ pages of original research. 43 re
 
 [![Or4cl3 AI Solutions](https://img.shields.io/badge/Or4cl3_AI_Solutions-GitHub-black?style=for-the-badge&logo=github)](https://github.com/or4cl3-ai-1)
 [![Research Archive](https://img.shields.io/badge/Research_Archive-Public-green?style=for-the-badge)](https://github.com/or4cl3-ai-1/or4cl3-research)
+[![HQCI-QSCE Spec](https://img.shields.io/badge/HQCI--QSCE-Technical_Spec-teal?style=for-the-badge)](./docs/HQCI-QSCE.md)
 [![License: OOML](https://img.shields.io/badge/License-OOML-silver?style=for-the-badge)](./LICENSE)
 
 ---

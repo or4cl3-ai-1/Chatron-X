@@ -39,10 +39,10 @@
 - **Key Feature**: Co-evolutionary experience for continuous learning
 
 ### 6. InfiniGen Engine — Feedback Layer
-- **Purpose**: Monitors system performance and suggests optimizations
-- **Input**: System performance and latency metrics
-- **Output**: Suggested code refactoring + AMAO load balancing
-- **Key Feature**: Maintains HQCI-QSCE layer performance requirements
+- **Purpose**: Monitors system performance and suggests optimizations; serves as AMAO load-balancing backbone
+- **Input**: System performance and latency metrics from the HQCI-QSCE layer
+- **Output**: Suggested code refactoring + AMAO workload rebalancing directives
+- **Key Feature**: Maintains the performance, memory, and ethical convergence guarantees defined by the HQCI-QSCE specification — specifically: latency < 800ms, memory footprint < 150MB, and Σ-Matrix ethical manifold compliance at all times. See [HQCI-QSCE.md](./HQCI-QSCE.md) for full technical specification.
 
 ---
 
@@ -95,3 +95,17 @@
 - **Model**: Longitudinal affective dynamics model
 - **Key Features**: Psychological state tracking, cognitive load recognition, adaptive response
 - **Impact**: AI that feels less like software and more like a trusted advisor
+
+---
+
+## Computational Foundation
+
+All 12 modules execute against the **HQCI-QSCE** computational substrate — the Hybrid Quantum-Classical Integration Layer with Quantum-Simulated Classical Engine. HQCI-QSCE provides:
+
+- **Mobile-native quantum-inspired computation** — no cloud, no cryogenics
+- **Adaptive tensor-network compression** (MPS/PEPS) — 3-5× memory and compute efficiency
+- **RL-steered optimization** — 30-40% faster convergence vs. standard VQA methods
+- **Σ-Matrix ethical governance** — DMAIC/DMADV meta-control loop ensuring provable ethical convergence
+- **Formal stability guarantees** — all trajectories bounded within ethically compliant manifold
+
+See [HQCI-QSCE.md](./HQCI-QSCE.md) for the complete technical specification.
