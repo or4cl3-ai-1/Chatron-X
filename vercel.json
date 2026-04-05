@@ -1,0 +1,1 @@
+{\n  "buildCommand": "cd apps/web && npm run build",\n  "outputDirectory": "apps/web/.next"\n}
