@@ -1,1 +1,1 @@
-{\n  "buildCommand": "npm install --legacy-peer-deps && npm run build --workspace apps/web",\n  "outputDirectory": "apps/web/.next"\n}
+{"buildCommand": "npm install --legacy-peer-deps && npm run build --workspace apps/web", "outputDirectory": "apps/web/.next"}
