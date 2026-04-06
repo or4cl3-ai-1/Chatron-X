@@ -1,1 +1,7 @@
-{"name": "monorepo","private": true,"workspaces": ["packages/*"]}
+{
+  "name": "chatron-x",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ]
+}
